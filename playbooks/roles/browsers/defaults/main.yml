@@ -1,12 +1,13 @@
 browser_deb_pkgs:
-    - xvfb
     - dbus-x11
-    - libgconf2-4
-    - libxss1
-    - libnss3-1d
-    - libcurl3
-    - xdg-utils
     - gdebi
+    - libcurl3
+    - libgconf2-4
+    - libgcrypt11
+    - libnss3-1d
+    - libxss1
+    - xdg-utils
+    - xvfb
 
 # Debian packages we host in S3 to ensure correct browser version
 # Both Chrome and FireFox update their apt repos with the latest version,

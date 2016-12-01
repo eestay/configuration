@@ -1,7 +1,7 @@
 ---
 
-localdev_user: "vagrant"
-localdev_home: "/home/vagrant"
+localdev_user: "ubuntu"
+localdev_home: "/home/ubuntu"
 localdev_xauthority: "{{ localdev_home }}/.Xauthority"
 localdev_xvfb_display: ":1"
 
